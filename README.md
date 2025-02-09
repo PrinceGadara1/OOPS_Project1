@@ -136,6 +136,7 @@ To compile and run the game in **Windows**:
 - Implement a **pause feature**.
 - Add a **scoreboard** to save high scores.
 - Introduce **power-ups** (e.g., temporary invincibility).
+- For now, this game will run in **Windows OS**, but we ensure that it will be **OS Independent** in future. 
 
 ---
 
