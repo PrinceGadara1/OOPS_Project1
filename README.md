@@ -19,7 +19,7 @@ The project is designed to be **modular and extendable**, making it an excellent
 - [How to Play](#how-to-play)
 - [Compilation and Execution](#compilation-and-execution)
 - [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
+- [Creators](#creators)
 
 ---
 
@@ -139,13 +139,19 @@ To compile and run the game in **Windows**:
 
 ---
 
-## Contributing
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-name`.
-3. Make your changes.
-4. Push your branch: `git push origin feature-name`.
-5. Create a pull request.
+## Creators
+- [Prince Gadara](https://github.com/PrinceGadara1)
+- [Jay Vaghela](https://github.com/jayubhai007)
+- [Kush Gandhi](https://github.com/kushgandhi123) 
+- [Shubh Goyani](https://github.com/Shubh-Goyani)
+- **For Contributing in This Game**:
+   1. Fork the repository.
+   2. Create a new branch: `git checkout -b feature-name`.
+   3. Make your changes.
+   4. Push your branch: `git push origin feature-name`.
+   5. Create a pull request.
 
 ---
 
-Enjoy the game! 🐍🎮
+#### Hope is what makes us strong. It is why we are here. 🐍🎮
+### - **Binary Brains**
