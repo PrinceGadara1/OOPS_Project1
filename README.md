@@ -19,6 +19,7 @@ The project is designed to be **modular and extendable**, making it an excellent
 - [How to Play](#how-to-play)
 - [Compilation and Execution](#compilation-and-execution)
 - [Future Improvements](#future-improvements)
+- [Contributing](#contributing)
 
 ---
 
@@ -133,6 +134,15 @@ To compile and run the game in **Windows**:
 - Implement a **pause feature**.
 - Add a **scoreboard** to save high scores.
 - Introduce **power-ups** (e.g., temporary invincibility).
+
+---
+
+## Contributing
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Make your changes.
+4. Push your branch: `git push origin feature-name`.
+5. Create a pull request.
 
 ---
 
