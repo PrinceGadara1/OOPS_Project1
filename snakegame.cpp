@@ -49,7 +49,7 @@ public:
         else if (level == 2)
             speed = 50;
         else if (level == 3)
-            speed = 40;
+            speed = 30;
         else
             speed = 90;
 
@@ -75,7 +75,7 @@ public:
 
     void generateObstacles()
     {
-        int numObstacles = (width * height) / (level == 1 ? 70 : (level == 2 ? 60 : 50));
+        int numObstacles = (width * height) / (level == 1 ? 80 : (level == 2 ? 60 : 40));
 
         for (int i = 0; i < numObstacles; i++)
         {
