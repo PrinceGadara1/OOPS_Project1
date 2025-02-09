@@ -1,4 +1,4 @@
-# SnakeGameProject
+# Snake Game Project
 
 Made using C++ with OOPs Concepts
 
