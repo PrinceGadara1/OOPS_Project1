@@ -32,19 +32,19 @@ This is **Snake Game** implemented using **C++** for rendering in a console and 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/PrinceGadara1/SnakeGameProject.git
+   git clone https://github.com/PrinceGadara1/OOPS_Project1.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd snake-game
+   cd OOPS_Project1
    ```
 3. Compile using g++:
    ```bash
-   g++ snake.cpp -o snake.exe
+   g++ snakegame.cpp -o snakegame.exe
    ```
 4. Run the game:
    ```bash
-   ./snake.exe
+   ./snakegame.exe
    ```
 
 ## Features
@@ -59,8 +59,10 @@ This is **Snake Game** implemented using **C++** for rendering in a console and 
   - Snake collides with walls.
   - Snake collides with itself.
   - Snake collides with an obstacle.
-- **Real-time Movement Control** using `WASD` or arrow keys.
+- **Real-time Movement Control**: Using `WASD` or arrow keys.
 - **Max Score**: Displays the highest score after the game ends.
+- **Buffer Rendering**: Prevents screen flickering for a smooth experience.
+- **Restart Option**: Allows restarting the game after a loss.
 
 ---
 
@@ -75,10 +77,7 @@ The game uses the following **data structures**:
 2. **Vector (`vector<pair<int, int>> obstacles`)**:
    - Stores randomly generated obstacles that the snake must avoid.
 
-3. **Pair (`pair<int, int>`)**:
-   - Used to represent the `x` and `y` coordinates of the snake's body, food, and obstacles.
-
-4. **Enumeration (`enum Direction`)**:
+3. **Enumeration (`enum Direction`)**:
    - Represents the movement direction: `STOP`, `LEFT`, `RIGHT`, `UP`, `DOWN`.
 
 ---
@@ -87,26 +86,29 @@ The game uses the following **data structures**:
 
 1. **Game Setup (`setupGame()`)**:
    - Initializes the grid size, difficulty level, and speed.
+
+2. **Reset Game (`resetGame()`)**:
+   - It clear screen of previous game.
    - Places the snake at the center.
    - Generates obstacles and food.
 
-2. **Rendering (`draw()`)**:
+4. **Rendering (`draw()`)**:
    - The game screen is drawn using a **buffer technique** (vector of strings) to reduce flickering.
-   - The **snake** is represented by `'o'`.
    - The **snake head** is `'O'`.
+   - The rest of **body part of snake** is represented by `'o'`.
    - **Food types** are `'F'`, `'S'`, `'M'`.
    - **Obstacles** are `'X'`.
 
-3. **Handling Input (`input()`)**:
+5. **Handling Input (`input()`)**:
    - Reads keyboard input using `_kbhit()` and `_getch()`.
    - Prevents reversing direction instantly (e.g., moving left then right).
 
-4. **Game Logic (`logic()`)**:
+6. **Game Logic (`logic()`)**:
    - Moves the snake based on direction.
    - Checks if the snake **eats food** and grows accordingly.
    - Checks for **collisions** with walls, itself, or obstacles.
 
-5. **Game Loop (`run()`)**:
+7. **Game Loop (`run()`)**:
    - Continuously updates the game until `gameOver == true`.
    - Handles restarting or exiting the game after losing.
 
