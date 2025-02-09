@@ -1,12 +1,50 @@
 # SnakeGameProject
-Made using C++ with OOPS' Concepts
 
-# Snake Game in C++
+Made using C++ with OOPs Concepts
+
+## Description
+This is a **classic Snake Game** implemented in **C++** using **Object-Oriented 
+Programming concepts**. The game is played in the console and features smooth gameplay with **real-time movement**, **multiple difficulty levels**, **obstacles**, and **special food types**.
+
+This project was built to **demonstrate fundamental C++ programming concepts**, including the use of **vectors, enums, and structured game loops**. The game logic is efficiently designed to prevent flickering and ensures a smooth playing experience. Players can control the snake using `WASD` or arrow keys, navigate through obstacles, and aim for the highest score.
+
+The project is designed to be **modular and extendable**, making it an excellent foundation for learning **game development in C++**.
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Features](#features)
+- [Data Structures Used](#data-structures-used)
+- [How the Game Works](#how-the-game-works)
+- [How to Play](#how-to-play)
+- [Compilation and Execution](#compilation-and-execution)
+- [Future Improvements](#future-improvements)
+
+---
 
 ## Introduction
 This is **Snake Game** implemented using **C++** for rendering in a console and to control the snake, keyboard input. The game includes obstacles and different levels of difficulty, together with **special kinds of food**.
 
 ---
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/PrinceGadara1/SnakeGameProject.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd snake-game
+   ```
+3. Compile using g++:
+   ```bash
+   g++ snake.cpp -o snake.exe
+   ```
+4. Run the game:
+   ```bash
+   ./snake.exe
+   ```
 
 ## Features
 - **Grid-based movement**: The snake moves within a defined grid.
