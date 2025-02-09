@@ -141,7 +141,7 @@ To compile and run the game in **Windows**:
 
 ## Creators
 - [Prince Gadara](https://github.com/PrinceGadara1)
-- [Jay Vaghela](https://github.com/jayubhai007)
+- [Jay Vaghela](https://github.com/202401237)
 - [Kush Gandhi](https://github.com/kushgandhi123) 
 - [Shubh Goyani](https://github.com/Shubh-Goyani)
 - **For Contributing in This Game**:
