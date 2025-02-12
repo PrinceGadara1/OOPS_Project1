@@ -325,7 +325,7 @@ public:
             maxx = max(maxx, score);
             Beep(523, 500);
 
-            cout << "Game Over!\nYour score: " << score << "\nMax Score: " << maxx << endl;
+            cout << "Close But, No Cigar!!!\nYour score: " << score << "\nMax Score: " << maxx << endl;
             string choice;
             cout << "Press 'R'/'r' to restart or any other key to exit: ";
             cin >> choice;
