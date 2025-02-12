@@ -1,6 +1,6 @@
 # Snake Game Project
 
-Made using C++ with OOPs Concepts
+Made using C++ with OOPs s
 
 ## Description
 This is a **classic Snake Game** implemented in **C++** using **Object-Oriented 
