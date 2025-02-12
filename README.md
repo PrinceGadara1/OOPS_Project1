@@ -8,7 +8,7 @@ Programming concepts**. The game is played in the console and features smooth ga
 
 This project was built to **demonstrate fundamental C++ programming concepts**, including the use of **vectors, enums, and structured game loops**. The game logic is efficiently designed to prevent flickering and ensures a smooth playing experience. Players can control the snake using `WASD` or arrow keys, navigate through obstacles, and aim for the highest score.
 
-The project is designed to be **modular and extendable**, making it an excellent foundation for learning **game development in C++**.
+The project is designed to be  **modular and extendable**, making it an excellent foundation for learning **game development in C++**.
 
 ## Table of Contents
 - [Introduction](#introduction)
