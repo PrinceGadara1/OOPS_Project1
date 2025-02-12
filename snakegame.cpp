@@ -45,11 +45,11 @@ public:
         cin >> level;
 
         if (level == 1)
-            speed = 90;
+            speed = 105;
         else if (level == 2)
-            speed = 50;
+            speed = 60;
         else if (level == 3)
-            speed = 30;
+            speed = 40;
         else
             speed = 90;
 
