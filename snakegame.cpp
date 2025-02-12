@@ -99,7 +99,7 @@ public:
         } while (foodCollides());
 
         int foodChance = rand() % 100;
-        foodType = (foodChance < 70) ? 'F' : (foodChance < 90) ? 'S' : 'M';
+        foodType = (foodChance < 60) ? 'F' : (foodChance < 90) ? 'S' : 'M';
     }
 
     bool foodCollides()
