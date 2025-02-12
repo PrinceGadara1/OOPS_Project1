@@ -176,7 +176,6 @@ public:
     {
         if (_kbhit())
         {
-            Direction olddir = dir;
             char key = _getch();
 
             if (key == -32)
